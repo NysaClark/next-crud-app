@@ -18,7 +18,7 @@ const AddTask = () => {
         }
 
         try {
-            const res = await fetch("http://localhost:3000/api/tasks", {
+            const res = await fetch("/api/tasks", {
                 method: "POST",
                 header: {
                     "Content-type": "application/json",
