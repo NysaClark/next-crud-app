@@ -13,7 +13,7 @@ const EditTaskForm = ({ id, title, description }) => {
         e.preventDefault();
 
         try {
-            const res = await fetch(`https://next-crud-app-ten.vercel.app/api/tasks/${id}`, {
+            const res = await fetch(`http://localhost:3000/api/tasks/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-type": "application/json",

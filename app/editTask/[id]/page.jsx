@@ -2,7 +2,7 @@ import EditTaskForm from '@/components/EditTaskForm'
 
 const getTaskById = async (id) => {
   try {
-    const res = await fetch(`https://next-crud-app-ten.vercel.app/tasks/${id}`, {
+    const res = await fetch(`http://localhost:3000/api/tasks/${id}`, {
       cache: "no-cache",
     });
 
