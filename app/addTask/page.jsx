@@ -18,7 +18,7 @@ const AddTask = () => {
         }
 
         try {
-            const res = await fetch("/api/tasks", {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_VERCEL_URL}/api/tasks`, {
                 method: "POST",
                 header: {
                     "Content-type": "application/json",
