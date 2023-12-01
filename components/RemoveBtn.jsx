@@ -10,7 +10,7 @@ const RemoveBtn = ({ id }) => {
     const confirmed = confirm("Are you sure?");
 
     if(confirmed){
-      const res = await fetch(`https://next-crud-app-black.vercel.app/tasks?id=${id}`, {
+      const res = await fetch(`https://next-crud-app-ten.vercel.app/tasks?id=${id}`, {
         method: "DELETE",
       });
 

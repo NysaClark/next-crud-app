@@ -18,7 +18,7 @@ const AddTask = () => {
         }
 
         try {
-            const res = await fetch("https://next-crud-app-black.vercel.app/api/tasks", {
+            const res = await fetch("https://next-crud-app-ten.vercel.app/api/tasks", {
                 method: "POST",
                 header: {
                     "Content-type": "application/json",

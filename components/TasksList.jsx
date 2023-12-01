@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getTasks = async () => {
     try {
-        const res = await fetch("https://next-crud-app-black.vercel.app/api/tasks", {
+        const res = await fetch("https://next-crud-app-ten.vercel.app/api/tasks", {
             cache: "no-cache",
         });
 
