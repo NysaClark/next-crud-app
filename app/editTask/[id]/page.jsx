@@ -2,7 +2,7 @@ import EditTaskForm from '@/components/EditTaskForm'
 
 const getTaskById = async (id) => {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_VERCEL_URL}/api/tasks/${id}`, {
+    const res = await fetch(`https://${process.env.NEXT_PUBLIC_VERCEL_URL}/api/tasks/${id}`, {
       cache: "no-cache",
     });
 
